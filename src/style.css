@@ -58,6 +58,12 @@ img {
 
 .news-text>span.news-url {
     text-align: right;
+    color: white;
+}
+
+.news-text>span.news-url>a {
+    color: rgb(0, 130, 236);
+    font-weight: bold;
 }
 
 #team {}
