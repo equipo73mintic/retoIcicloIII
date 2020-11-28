@@ -4,8 +4,10 @@ body {
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
 }
 
+
 /* INICIO ESTILOS HEADER*/
-.header{
+
+.header {
     height: 120px;
     -ms-flex-item-align: center;
     align-self: center;
@@ -13,7 +15,7 @@ body {
     padding: 0 auto;
 }
 
-.header-menu{
+.header-menu {
     height: 70px;
     background-color: rgb(255, 255, 255);
     display: -webkit-box;
@@ -22,21 +24,21 @@ body {
     width: 100%;
 }
 
-.header-brand{
+.header-brand {
     display: flex;
     width: 80%;
     height: inherit;
-    text-align: center;   
+    text-align: center;
 }
 
-.header-brand__image{
+.header-brand__image {
     padding-top: 10px;
     padding-left: 70px;
     padding-right: 10px;
     height: 50px;
 }
 
-.header-brand__title{
+.header-brand__title {
     color: rgb(3, 8, 80);
     font-size: 2em;
     margin: 0;
@@ -45,12 +47,12 @@ body {
     height: 50%;
 }
 
-.header-nav{
+.header-nav {
     text-align: end;
     width: 100%
 }
 
-.header-navlist{
+.header-navlist {
     margin-top: 0;
     margin-bottom: 0;
     height: 70px;
@@ -60,19 +62,21 @@ body {
     justify-content: space-evenly;
 }
 
-.header-navlist__item{
+.header-navlist__item {
     line-height: 4.2;
 }
 
-.header-navlist__link{
+.header-navlist__link {
     text-decoration: none;
     font-size: 1.05em;
     color: #020961;
 }
 
-.header-imagen{
-    width: 100%;  
+.header-imagen {
+    width: 100%;
 }
+
+
 /* FIN ESTILOS HEADER*/
 
 footer {}
@@ -96,6 +100,61 @@ footer {}
 
 /*Fin estilos de los servicios en el main*/
 
-#news {}
+.row {
+    width: 100%;
+    height: 350px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin: 2px;
+    justify-content: space-around;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: .95em;
+    font-weight: lighter;
+}
+
+#news {
+    background-color: cadetblue;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-data {
+    width: 49%;
+    height: 100%;
+    background-color: #000127;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+.news-image {
+    width: 200px;
+    margin: 10px 0;
+    padding: 0 40px;
+    color: white;
+}
+
+.news-image>img {
+    width: 200px;
+}
+
+.news-text {
+    color: white;
+    text-align: justify;
+    width: 49%;
+    padding: 1em 0;
+}
+
+.news-text>span.news-url {
+    text-align: right;
+    color: white;
+}
+
+.news-text>span.news-url>a {
+    color: rgb(0, 130, 236);
+    font-weight: bold;
+}
 
 #team {}
