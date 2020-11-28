@@ -81,14 +81,15 @@ body {
 
 footer {}
 
+
  /*Box para separar cada servicio.
     Cada box sera simetrico y distribuido entre todo el ancho de la pagina.
  */
+
 .services-box{
     float: left;
     width: 20%;
-    height: 250px;
-    /*padding: 00px;*/
+    height: 300;
 }
 
 /*Clearfix para corregir cuando un elemento es mayor que el elemento que lo contiene dentro de si.*/
