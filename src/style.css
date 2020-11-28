@@ -11,6 +11,19 @@ footer {}
 
 #services {}
 
+.box{
+    float: left;
+    width: 33.33%;
+    height: 400px;
+    /*padding: 00px;*/
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 #news {}
 
 #team {}
