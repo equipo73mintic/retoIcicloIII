@@ -79,8 +79,6 @@ body {
 }
 /* FIN ESTILOS HEADER*/
 
-footer {}
-
 /* INICIO ESTILOS FOOTER */
 
 .seccion-footer {
@@ -193,6 +191,7 @@ footer {}
     font-weight: bold;
 }
 
+/*Inicio de estilos Team*/
 .team {
     background-color: #000127;
     display: flex;
@@ -228,3 +227,4 @@ footer {}
     color: gray;
     font-weight: 200;
 }
+/*fin de estilos Team*/
