@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Mi primera pagina web</title>
+    <title>JavaScript Frameworks</title>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
 </head>
@@ -16,11 +16,11 @@
     <header>
 
         <!-- SECCIÓN MENÚ -->
-        <section class="header-menu">
+        <div class="header-menu">
 
             <!-- Marca (Nombre y logo) -->
             <div class="header-brand">
-                <img class=header-brand__image src="images/js_logo.png" alt="">
+                <img class=header-brand__image src="images/js_logo.png" class="team-image" alt="">
                 <h1 class="header-brand__title">JavaScript Frameworks</h1>
             </div>
 
@@ -43,13 +43,13 @@
             </nav>
             <!-- Fin seccion nav -->
 
-        </section>
+        </div>
         <!-- Fin SECCIÓN MENÚ -->
 
         <!-- SECCIÓN IMAGEN -->
-        <section>
+        <div>
             <img class=header-imagen src="images/js_frameworks.png" alt="Best Frameworks 2020">
-        </section>
+        </div>
         <!-- Fin SECCIÓN IMAGEN -->
 
     </header>
@@ -59,7 +59,54 @@
 
         <!-- Inicio seccion services -->
         <div id="services">
-            <h1>Hola</h1>
+
+            <div class="encabezado">
+
+
+            </div>
+            
+            <div class="services-clearfix">
+                <div class="services-box" style="background-color:#373940" >
+                    <div>
+                        <img src="images/angular_mini.png">
+                    </div>
+                    <div style="text-align: center">
+                        <p>Framework mantenido por Google.</p>
+                    </div>
+                    <p><a href="https://angular.io/docs" target="_blank" target="_blank" style="color: rgb(223, 77, 77)">Click aqui para instalarlo...</a></p>
+                </div>
+                <div class="services-box" style="background-color:#1976d2">
+                    <div>
+                        <img src="images/react_mini.png">
+                    </div>
+                    <div style="text-align: center">
+                        <p>Biblioteca Javascript de código abierto.</p>
+                    </div>
+                    <p><a href="https://es.reactjs.org/docs/getting-started.html" target="_blank" style="color: rgb(4, 212, 240)">Click aqui para instalarlo...</a></p>
+                </div>
+                <div class="services-box" style="background-color:#fff">
+                    <div>
+                        <img src="images/vue_mini.png" style="padding-top: 10px;" width="140" height="140">
+                    </div>
+                    <div style="text-align: center">
+                        <p>Framework para crea aplicaciones SPA.</p>
+                    </div>
+                    <p><a href="https://vuejs.org/v2/guide/" target="_blank" style="color: rgb(80, 134, 69)">Click aqui para instalarlo...</a></p>
+                </div>
+                <!--<div class="services-box" style="background-color:#1c1e24">
+                    <div>
+                        <img src="images/ember_mini.png">
+                    </div>
+                    <p><a href="https://guides.emberjs.com/release/getting-started/quick-start/" target="_blank" style="color: rgb(255, 255, 255)">Click aqui para instalarlo...</a></p>
+                </div>
+                <div class="services-box" style="background-color:white">
+                    <div>
+                        <img src="images/svelte_mini.png" style="padding-top: 10px;" width="140" height="140">
+                    </div>
+                    <p><a href="https://svelte.dev" target="_blank" style="color: rgb(240, 100, 58)">Click aqui para instalarlo...</a></p>
+                </div>-->
+            </div>
+
         </div>
         <!-- Fin seccion services -->
 
@@ -126,8 +173,37 @@
 
 
         <!-- Inicio seccion team -->
-        <div id="team">
-
+        <div id="team" class="team">
+            <div>
+                <a href="http://linkedin.com/in/wolfgang-jos%C3%A9-santamar%C3%ADa-c%C3%B3rdoba-bb609049" target="_blank"><img src="images/wolf.jpeg" class="team-image" alt=""></a>
+                <h1>Wolfgang Jose Santamaria Cordoba</h1>
+                <h4>Ingeniero, Músico y sobre apasionado a los videojuegos</h4>
+                <p></p>
+            </div>
+            <div>
+                <a href="https://geralcr.js.org/index.html" target="_blank"><img src="images/geral.jpeg" class="team-image" alt=""></a>
+                <h1>Geraldine Claros</h1>
+                <h4> Habilidades y competencias en ciencias físicas, matemáticas y en diversos lenguajes de programación. Soy una persona con etica profesional, con alto sentido de responsabilidad</h4>
+                <p></p>
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/jason-roberto-a406b2bb/" target="_blank"><img src="images/jason.jpeg" class="team-image"></a>
+                <h1>Jason Roberto Camargo</h1>
+                <h4>Apasionado por el desarrollo de software y l tecnologia. Amante a la velocidad. Biker </h4>
+                <p></p>
+            </div>
+            <div>
+                <img src="images/andres.jpeg" class="team-image" alt="">
+                <h1>Jaime Andres Bravo Buitrago</h1>
+                <h4>Ingeniero mecanico, baterista, ciclista, y exfutbolista. Incursionando en el desarrollo de aplicaciones. Con experiencia en el montaje de calderas</h4>
+                <p></p>
+            </div>
+            <div>
+                <a href="https://www.linkedin.com/in/yasar-jos%C3%A9-cure-gonz%C3%A1lez-0aab561b9/" target="_blank"><img src="images/yaser.jpeg" class="team-image" alt=""></a>
+                <h1>Yasar José Cure González</h1>
+                <h4>19 años, estudiante de Ingeniería de Sistemas. Me gusta la comida, jugar fútbol y los videojuegos, pero eso cuando hay tiempo.</h4>
+                <p></p>
+            </div>
         </div>
         <!-- Fin seccion team -->
 
@@ -136,9 +212,25 @@
 
     <!-- Inicio seccion footer -->
     <footer>
-        <h1>
-            "hola soy Andres"
-        </h1>
+        <section class = "seccion-footer">
+        <div class = "left-footer">
+            <p>
+                <h4>Espacio dedicado a los frameworks para javascript de mayor tendencia y versatilidad en el mundo de la programación.</h4>
+                <a href="https://github.com/equipo73mintic/retoIcicloIII"> Repositorio Github</a>
+            </p>
+        </div>
+        <div class = "right-footer">
+            <ul class = "development-team">
+                <h4>Team designer:</h4>
+                <li><a href="mailto:santamaria.wolfgang@gmail.com"> Wolfgang Jose Santamaria Cordoba</a> [Product owner]</li>
+                <li><a href="mailto:geralcr749@gmail.com"> Geraldine Claros Rios</a> [Developer]</li>
+                <li><a href="mailto:jandresbravob@gmail.com"> Jaime Andres Bravo Buitrago</a> [Developer]</li>                
+                <li><a href="mailto:jason-293@hotmail.com"> Jason Roberto Camargo</a> [Developer]</li>
+                <li><a href="mailto:ycure10@gmail.com"> Yasar José Cure González</a> [Developer]</li>
+                
+            </ul>
+        </div>
+        </section>
 
     </footer>
     <!-- Fin seccion footer -->

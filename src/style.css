@@ -2,6 +2,8 @@ body {
     min-width: 1200px;
     background-color: aquamarine;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    /* margin-right: auto; */
+    /* margin-left: auto; */
 }
 
 
@@ -75,13 +77,62 @@ body {
 .header-imagen {
     width: 100%;
 }
-
-
 /* FIN ESTILOS HEADER*/
 
-footer {}
+/* INICIO ESTILOS FOOTER */
 
-#services {}
+.seccion-footer {
+    display: flex;
+    text-align: center;
+}
+
+.left-footer, .right-footer {
+    width: 50%;    
+}
+
+.development-team {
+    list-style: none;
+}
+
+/* FIN ESTILOS FOOTER */
+
+
+ /*Box para separar cada servicio.
+    Cada box sera simetrico y distribuido entre todo el ancho de la pagina.
+ */
+
+.services-box{
+    float: left;
+    width: 33.33%;
+    height: 300;
+    text-align: center;
+}
+
+/*Clearfix para corregir cuando un elemento es mayor que el elemento que lo contiene dentro de si.*/
+.services-clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.services-box div p{
+    text-align: center;
+    color: rgb(209, 146, 28);
+}
+
+.services p{
+    text-align: center;
+}
+
+.services div{
+    text-align: center;
+}
+
+.services a{
+    font-size: 55%;
+}
+
+/*Fin estilos de los servicios en el main*/
 
 .row {
     width: 100%;
@@ -140,4 +191,40 @@ footer {}
     font-weight: bold;
 }
 
-#team {}
+/*Inicio de estilos Team*/
+.team {
+    background-color: #000127;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.team-image{
+    width: 220px;
+    height: 220px;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin: 50px 1px; */
+    margin-top: 20px;
+    margin-bottom: 100;
+    padding : 0 20px;
+    border-radius: 200px;
+}
+
+.team div{
+    border-color: rgb(255, 255, 255);
+    border-width: 100px;
+}
+
+.team h1{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-weight: 500; */
+
+}
+
+.team h4{
+    color: gray;
+    font-weight: 200;
+}
+/*fin de estilos Team*/
