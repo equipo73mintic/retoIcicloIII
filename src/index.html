@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Mi primera pagina web</title>
+    <title>Framesworks JavaScript</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 
 </head>
 
@@ -14,13 +15,42 @@
     <!-- Inicio seccion header -->
     <header>
 
-        <h1>Hola, soy Yasar José</h1>
+        <!-- SECCIÓN MENÚ -->
+        <section class="header-menu">
 
-        <!-- Inicio seccion nav -->
-        <nav>
+            <!-- Marca (Nombre y logo) -->
+            <div class="header-brand">
+                <img class=header-brand__image src="images/js_logo.png" alt="">
+                <h1 class="header-brand__title">JavaScript Frameworks</h1>
+            </div>
 
-        </nav>
-        <!-- Fin seccion nav -->
+            <!-- Inicio seccion nav -->
+            <nav class="header-nav">
+                <ul class="header-navlist">
+                    <li class="header-navlist__item">
+                        <a href="#" class="header-navlist__link">Inicio</a>
+                    </li>
+                    <li class="header-navlist__item">
+                        <a href="#services" class="header-navlist__link">Servicios</a>
+                    </li>
+                    <li class="header-navlist__item">
+                        <a href="#news" class="header-navlist__link">Noticias</a>
+                    </li>
+                    <li class="header-navlist__item">
+                        <a href="#team" class="header-navlist__link">Equipo</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- Fin seccion nav -->
+
+        </section>
+        <!-- Fin SECCIÓN MENÚ -->
+
+        <!-- SECCIÓN IMAGEN -->
+        <section>
+            <img class=header-imagen src="images/js_frameworks.png" alt="Best Frameworks 2020">
+        </section>
+        <!-- Fin SECCIÓN IMAGEN -->
 
     </header>
     <!-- Fin seccion header -->
@@ -29,20 +59,106 @@
 
         <!-- Inicio seccion services -->
         <div id="services">
-
+            <div class="services-clearfix">
+                <div class="services-box" style="background-color:#373940" >
+                    <div>
+                        <img src="images/angular_mini.png">
+                    </div>
+                    <p><a href="https://angular.io/docs" target="_blank" target="_blank" style="color: white">Click aqui para instalarlo...</a></p>
+                </div>
+                <div class="services-box" style="background-color:#1976d2">
+                    <div>
+                        <img src="images/react_mini.png">
+                    </div>
+                    <p><a href="https://es.reactjs.org/docs/getting-started.html" target="_blank" style="color: rgb(10, 8, 8)">Click aqui para instalarlo...</a></p>
+                </div>
+                <div class="services-box" style="background-color:#fff">
+                    <div>
+                        <img src="images/vue_mini.png">
+                    </div>
+                    <p><a href="https://vuejs.org/v2/guide/" target="_blank" style="color: rgb(80, 134, 69)">Click aqui para instalarlo...</a></p>
+                </div>
+                <div class="services-box" style="background-color:#1c1e24">
+                    <div>
+                        <img src="images/ember_mini.png">
+                    </div>
+                    <p><a href="https://guides.emberjs.com/release/getting-started/quick-start/" target="_blank" style="color: rgb(255, 255, 255)">Click aqui para instalarlo...</a></p>
+                </div>
+                <div class="services-box" style="background-color:white">
+                    <div>
+                        <img src="images/svelte_mini.png">
+                    </div>
+                    <p><a href="https://svelte.dev" target="_blank" style="color: rgb(240, 100, 58)">Click aqui para instalarlo...</a></p>
+                </div>
+              </div>
         </div>
         <!-- Fin seccion services -->
 
 
         <!-- Inicio seccion news -->
         <div id="news">
-            <h1>Hola soy geral c</h1>
+            <div class="row">
+                <div class="news-data">
+                    <div class="news-image">
+                        <img src="images/angular.png">
+                    </div>
+                    <div class="news-text">
+                        <h2 class="news-title">Versión 11 de Angular ya está disponible</h2>
+                        <hr>
+                        <p class="news-info" style="margin:0; padding:0;">Versiín 11.0.0 está aquí y tenemos algunas actualizaciones excelentes para los desarrolladores de Angular en todas partes.
+                        </p>
+                        <span class="news-url"><a href="https://blog.angular.io/version-11-of-angular-now-available-74721b7952f7" target="_blank">Leer noticia completa >></a></span>
+                    </div>
+                </div>
+                <div class="news-data">
+                    <div class="news-image">
+                        <img src="images/react.png">
+                    </div>
+                    <div class="news-text">
+                        <h2 class="news-title">React Js</h2>
+                        <hr>
+                        <p class="news-info" style="margin:0; padding:0;">Hoy lanzamos React v17.0 delectus, Hemos escrito extensamente sobre el papel de la versión React 17 y los cambios que contiene en la publicación del blog React 17 RC . Esta publicación es un breve resumen de la misma, por lo que
+                            si ya ha leído la publicación de RC, puede omitir esta
+                        </p>
+                        <span class="news-url"><a href="https://es.reactjs.org/blog/2020/10/20/react-v17.html" target="_blank">Leer noticia completa >></a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="news-data">
+                    <div class="news-image">
+                        <img src="images/vue.png">
+                    </div>
+                    <div class="news-text">
+                        <h2 class="news-title">Vue JS</h2>
+                        <hr>
+                        <p class="news-info" style="margin:0; padding:0;">¡Hola! ¡El tiempo es ahora! ¡Vue.js v3.0, nombre en clave " One Piece " acaba de ser lanzado oficialmente! 🎉 ¡Mira la charla de anuncio de Evan You !
+                        </p>
+                        <span class="news-url"><a href="https://www.getrevue.co/profile/vuenewsletter/issues/186-vue-js-v3-0-0-one-piece-released-the-state-of-nuxt-js-and-more-272688" target="_blank">Leer noticia completa >></a></span>
+                    </div>
+                </div>
+                <div class="news-data">
+                    <div class="news-image">
+                        <img src="images/svelte.png">
+                    </div>
+                    <div class="news-text">
+                        <h2 class="news-title">Svelte </h2>
+                        <h4>Paquetes oficiales de Svelte</h4>
+                        <hr>
+                        <p class="news-info" style="margin:0; padding:0;">Además del marco principal de Svelte , que se puede encontrar en <a href="Svelte.dev" target="_blank" style="color: orange;">Svelte.dev</a>, hay algunos paquetes oficiales importantes que debe conocer.
+                        </p>
+                        <span class="news-url"><a href="https://www.sveltenews.com/official-svelte-packages/" target="_blank">Leer noticia completa >></a></span>
+                    </div>
+                </div>
+            </div>
+
         </div>
         <!-- Fin seccion news -->
 
 
         <!-- Inicio seccion team -->
         <div id="team">
+            <h1>esto es una prueba</h1>
 
         </div>
         <!-- Fin seccion team -->
