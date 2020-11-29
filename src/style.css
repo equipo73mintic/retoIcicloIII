@@ -2,6 +2,8 @@ body {
     min-width: 1200px;
     background-color: aquamarine;
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    /* margin-right: auto; */
+    /* margin-left: auto; */
 }
 
 
@@ -174,4 +176,35 @@ footer {}
     font-weight: bold;
 }
 
-#team {}
+.team {
+    background-color: #000127;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.team-image{
+    width: 220px;
+    height: 220px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 1px;
+    padding: 0 20px;
+    border-radius: 200px;
+}
+
+.team div{
+    border-color: rgb(255, 255, 255);
+    border-width: 100px;
+}
+
+.team h1{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+
+.team h4{
+    color: gray;
+    font-weight: 200;
+}
