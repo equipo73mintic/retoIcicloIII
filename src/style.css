@@ -81,6 +81,23 @@ body {
 
 footer {}
 
+/* INICIO ESTILOS FOOTER */
+
+.seccion-footer {
+    display: flex;
+    text-align: center;
+}
+
+.left-footer, .right-footer {
+    width: 50%;    
+}
+
+.development-team {
+    list-style: none;
+}
+
+/* FIN ESTILOS FOOTER */
+
 
  /*Box para separar cada servicio.
     Cada box sera simetrico y distribuido entre todo el ancho de la pagina.
