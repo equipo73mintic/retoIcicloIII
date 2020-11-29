@@ -21,14 +21,21 @@ El proyecto, deberá manejarse versionado en un repositorio remoto en github, en
 
 ### Procedimiento
 
+-> Inicialmente, y con la finalidad de organizar el trabajo del equipo, se creó un repositorio en GitHub el cual sería el lugar en donde se llevaría un control de las tareas a realizar por cada uno de los integrantes. Los mismos fueron agregados como colaboradores al repositorio y cada uno de ellos tenía una rama de desarrollo en la cual, una vez realizara las actualizaciones de su parte del sitio web, debía realizar un pull request para incluir dicha parte en la rama principal del repositorio. De esta manera se logró trabajar con la herramienta Git y el servicio de GitHub para organizar el primer sprint del proyecto. El repositorio es público y se puede consultar en el siguiente enlace: https://github.com/equipo73mintic/retoIcicloIII
 
+-> Posteriormente, el desarrollo se realizó utilizando las bases aprendidas en el curso en HTML y CSS, en cada una de las secciones correspondientes, y cuyos responsables se encargaron de darle un estilo personal a cada una de ellas. La estructura es la siguiente: El archivo index.html se encuentra dividido por cada una de las mencionadas secciones, en el head se llama a la hoja de estilos que se encuentra en el archivo style.css. Las imágenes utilizadas se encuentran en una carpeta llamada images.
+
+-> Desde Visual Studio Code se puede observar la estructura visual de la página usando la extensión Live Server y a través de la opción "Go Live" en la parte inferior derecha del IDE. También se puede abrir el archivo index.html usando cualquier navegador web.
 
 #### Desarrolladores
 
-A continuación los integrantes del equipo de desarrollo con su respectiva responsabilidad
+A continuación los integrantes del equipo de desarrollo con su respectiva responsabilidad:
 
-Yasar José Cure González [Header]
-Wolfgang Jose Santamaria Cordoba [Services]
-Geraldine Claros Rios [News]
-Jaime Andres Bravo Buitrago [Team]
-Jason Roberto Camargo [Footer]
+<-------------Equipo No 73--------------->
+[Header] Yasar José Cure González 
+[Services] Wolfgang Jose Santamaria Cordoba 
+[News] Geraldine Claros Rios 
+[Team] Jason Roberto Camargo 
+[Footer] Jaime Andres Bravo Buitrago 
+
+-------------------------------------------------------------------------------------------------------------------
