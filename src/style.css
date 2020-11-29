@@ -98,6 +98,11 @@ footer {}
     display: table;
 }
 
+.services-box div p{
+    text-align: center;
+    color: rgb(209, 146, 28);
+}
+
 .services p{
     text-align: center;
 }
