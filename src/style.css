@@ -90,6 +90,7 @@ footer {}
     float: left;
     width: 20%;
     height: 300;
+    text-align: center;
 }
 
 /*Clearfix para corregir cuando un elemento es mayor que el elemento que lo contiene dentro de si.*/
@@ -97,6 +98,18 @@ footer {}
     content: "";
     clear: both;
     display: table;
+}
+
+.services p{
+    text-align: center;
+}
+
+.services div{
+    text-align: center;
+}
+
+.services a{
+    font-size: 60%;
 }
 
 /*Fin estilos de los servicios en el main*/
