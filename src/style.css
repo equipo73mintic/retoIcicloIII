@@ -81,7 +81,38 @@ body {
 
 footer {}
 
-#services {}
+
+ /*Box para separar cada servicio.
+    Cada box sera simetrico y distribuido entre todo el ancho de la pagina.
+ */
+
+.services-box{
+    float: left;
+    width: 20%;
+    height: 300;
+    text-align: center;
+}
+
+/*Clearfix para corregir cuando un elemento es mayor que el elemento que lo contiene dentro de si.*/
+.services-clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.services p{
+    text-align: center;
+}
+
+.services div{
+    text-align: center;
+}
+
+.services a{
+    font-size: 55%;
+}
+
+/*Fin estilos de los servicios en el main*/
 
 .row {
     width: 100%;
